@@ -162,8 +162,8 @@ vectored = [
     "esp32s3-hal?/vectored",
 ]
 
-rt-xtensa = [
-    "esp32s3-hal?/rt-xtensa",
+rt = [
+    "esp32s3-hal?/rt",
 ]
 
 [package.metadata.docs.rs]
