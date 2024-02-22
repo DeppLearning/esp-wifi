@@ -154,6 +154,10 @@ log = [
   "esp32s3-hal?/log",
 ]
 
+embassy-time-timg0 = [
+    "esp32s3-hal?/embassy-time-timg0",
+]
+
 [package.metadata.docs.rs]
 features = ["esp32c3", "wifi", "ble", "coex", "async", "embassy-net", "esp32c3-hal/embassy-time-systick", "esp32c3-hal/default"]
 default-target = "riscv32imc-unknown-none-elf"
