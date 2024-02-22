@@ -14,7 +14,7 @@ esp32c2-hal = { version = "0.13.0", default-features = false }
 esp32c6-hal = { version = "0.8.0", default-features = false }
 esp32h2-hal = { version = "0.6.0", default-features = false }
 esp32-hal = { version = "0.18.0", default-features = false }
-esp32s3-hal = { version = "0.15.0", default-features = false }
+esp32s3-hal = { git = "https://github.com/esp-rs/esp-hal", rev = "c18b5b4e78ab68494c567829da2c6f96e98b9096", default-features = false }
 esp32s2-hal = { version = "0.15.0", default-features = false }
 smoltcp = { version = "0.11.0", default-features = false, features = [
     "medium-ethernet",
